@@ -15,6 +15,7 @@ export class HomePage extends LithiumElement {
     return html`
       <div class="page-container">
         <h1>Welcome Home ${this.counter.get()}</h1>
+        <img src="/logo.png" alt="Lithium Logo" width="200" />
         <p>This is the home page</p>
 
         <button @click=${this.plusOne}>Counter</button>
