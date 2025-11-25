@@ -1,4 +1,4 @@
-import { definePage, html, LithiumElement } from "@lithium";
+import { definePage, html, LithiumElement } from "@lithium-ts/core";
 
 import styles from './home.page.css?inline';
 

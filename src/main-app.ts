@@ -1,6 +1,6 @@
-import { html, defineApp, LithiumApp } from '@lithium';
+import { html, defineApp, LithiumApp } from '@lithium-ts/core';
 import { routes } from '@/routes/routes.js';
-import { initI18n } from '@/i18n';
+import { initI18n } from '@config/i18n';
 
 import style from './main-app.style.css?inline';
 

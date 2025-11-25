@@ -8,8 +8,9 @@ const _dirname = dirname(__filename);
 export default defineConfig({
   resolve: {
     alias: {
-      '@lithium': resolve(__dirname, './config/lithium'),
+      '@config': resolve(__dirname, './config/'),
       '@': resolve(__dirname, './src/'),
+      '@app-styles': resolve(__dirname, './src/styles/'),
     },
   },
 });

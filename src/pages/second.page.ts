@@ -1,5 +1,5 @@
-import { LithiumElement, definePage, html } from "@lithium";
-import { t } from "@/i18n";
+import { LithiumElement, definePage, html } from "@lithium-ts/core";
+import { t } from "@config/i18n";
 
 import styles from './second.page.css?inline';
 
